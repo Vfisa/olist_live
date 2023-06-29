@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('out.c-download_file', 'olist_products_dataset') }}
